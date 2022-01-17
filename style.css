@@ -9,15 +9,16 @@
 }
 
 body{
-    margin: 0px;
+    margin: 0;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 90%;
-    margin: 30px auto;
+
+    margin: 30px auto 0;
+    width: 80%;
 }
 
 .header-logo-box {
@@ -50,11 +51,12 @@ body{
 
 .main {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 90%;
-    margin: 0 auto;
-    height: 560px;
+    height: 620px;
+
+    margin: 30px auto 0;
+    width: 80%;
 }
 
 .main-image {
@@ -111,24 +113,25 @@ body{
 
 .primary-section {
     align-items: center;
-    width: 90%;
-    margin: 40px auto;
+
+    margin: 30px auto 0;
+    width: 80%;
 }
 
 .primary-section-title {
     font-family: 'Sulphur Point', sans-serif;
     font-weight: 600;
     font-size: 40px;
-    margin-left: 60px;
+
+    margin-bottom: 30px;
 }
 
 .primary-section-contents {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 560px;
-    margin: 40px auto;
 }
 
 .primary-section-contents-image {
@@ -175,7 +178,7 @@ body{
     background: #FFFFFF;
 
     display: block;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 .primary-section-button:hover {
@@ -185,8 +188,9 @@ body{
 /*  */
 .secundary-section {
     align-items: center;
-    width: 90%;
-    margin: 40px auto;
+
+    margin: 30px auto 0;
+    width: 80%;
 }
 
 .secundary-section-title {
@@ -194,18 +198,57 @@ body{
     font-weight: 600;
     font-size: 40px;
     text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.secundary-section div  {
+    height: 500px;
+    width: 100%;
 }
 
 .secundary-section-contents {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 40px;
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
 
-.secundary-section-contents-image {
-    width: 300px;
+.secundary-section-contents div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+
+    opacity: 0;
+}
+
+.secundary-section-contents div img {
+    width: 350px;
+    height: 100%;
     border-radius: 20px;
+
+    object-fit: cover;
+}
+
+div.selected {
+    opacity: 1;
+}
+
+.secundary-section-contents-button {
+    display: block;
+    margin: 20px 0 20px 95%;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.secundary-section-contents-button img{
+    width: 60px;
+    height: 60px;
+    transform: rotate(180deg);
+}
+
+.secundary-section-contents-button img:hover{
+    opacity: 0.5;
 }
 
 .footer {
