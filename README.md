@@ -1,6 +1,6 @@
 # Ateliê Daplante
 
-### Esse projeto foi desenvolvido para testes de inteface e como forma de aprendizado utilizando html, css e javascript.
+### Esse projeto foi desenvolvido para testes de interface e como forma de aprendizado utilizando html, css e javascript.
 
 <br>
 
