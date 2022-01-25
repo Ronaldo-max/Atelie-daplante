@@ -4,7 +4,7 @@
 
 <br>
 
-- O objetivo desse projeto é simular um portifólio de decoraçao de jardins internos e mine jardins.
+- O objetivo desse projeto é simular um portifólio de decoração de jardins internos e mine jardins.
 
 ## Fontes
 
