@@ -1,12 +1,12 @@
 # Ateliê Daplante
 
-### Esse projeto foi desenvolvido para testes de interface e como forma de aprendizado utilizando html, css e javascript.
+### This project was developed for interface tests and as a way of learning using html, css and javascript.
 
 <br>
 
-- O objetivo desse projeto é simular um portifólio de decoração de jardins internos e mine jardins.
+- The objective of this project is to simulate a portfolio of decoration of indoor gardens and mine gardens.
 
-## Fontes
+## Sources
 
 - Roboto
 - Sulphur Point
@@ -18,12 +18,12 @@
 - Google Fonts - https://fonts.google.com - Para fontes
 - Flaticon - https://www.flaticon.com - Para ícones
 
-## Tecnologias
+## Technologies
 
 - HTML
 - CSS
 - JAVASCRIPT
 
-## Como visualizar
+## How to view
 
-- Você precisa de um navegador e executar o arquivo principal ( index.html ).
+- You need a browser and run the main file ( index.html ).
